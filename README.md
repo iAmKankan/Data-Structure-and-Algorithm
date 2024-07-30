@@ -142,10 +142,9 @@ The graph is the nonlinear data structure. The graph shown in the figure represe
    * 01111101
    * 10001001
 3. Write a C program where following numbers are stored in a array :
-
 2 12 17 24 5 78 35 18 16
-4. Write a C program using linked list where following numbers are stored :
 
+4. Write a C program using linked list where following numbers are stored :
 2 12 17 24 5 78 35 18 16
 
 5. Consider the stack NAME in fig 1.01, which is stored alphabetically.
