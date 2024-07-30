@@ -83,7 +83,7 @@ In computer science, a linked list is one of the fundamental data structures use
 3. Sentinel nodes
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/f9e3daf1-5f8f-4c42-9a9f-9eeee0bf555e" width=50%/>
+<img src="https://github.com/user-attachments/assets/870ba98a-c852-47db-ba63-edd406be293d" width=50%/>
  <br><ins><b><i></i></b></ins>
 </p>
 
@@ -112,5 +112,48 @@ Queues are also called " first-in first-out " (FIFO) list. Since the first eleme
  <br><ins><b><i></i></b></ins>
 </p>
 
+### 🔲 Tree 	
+Data frequently contain a hierarchical relationship between various elements. This non-linear Data structure which reflects this relationship is called a rooted tree graph or, tree.
+
+This structure is mainly used to represent data containing a hierarchical relationship between elements, e.g. record, family tree and table of contents.
+
+A tree consist of a distinguished node r , called the root and zero or more (sub) tree t1 , t2 , ... tn , each of whose roots are connected by a directed edge to r .
+
+In the tree of figure, the root is A, Node t 2 has r as a parent and t 2.1 , t 2.2 and t 2.3 as children. Each node may have arbitrary number of children, possibly zero. Nodes with no children are known as leaves.
+
+### 🔲 Graph
+	
+ 	 	
+A graph consists of a set of nodes (or Vertices ) and a set of arc (or edge ). Each arc in a graph is specified by a pair of nodes. A node n is incident to an arc x if n is one of the two nodes in the ordered pair of nodes that constitute x. The degree of a node is the number of arcs incident to it. The indegree of a node n is the number of arcs that have n as the head, and the outdegree of n is the number of arcs that have n as the tail.
+
+The graph is the nonlinear data structure. The graph shown in the figure represents 7 vertices and 12 edges. The Vertices are { 1, 2, 3, 4, 5, 6, 7} and the arcs are {(1,2), (1,3), (1,4), (2,4), (2,5), (3,4), (3,6), (4,5), (4,6), (4,7), (5,7), (6,7) }. Node (4) in figure has indegree 3, outdegree 3 and degree 6.
+
+### 🔲 Abstract Data Type
+1. Abstract Data Types (ADT's) are a model used to understand the design of a data structure
+2. 'Abstract ' implies that we give an implementation-independent view of the data structure
+3. ADTs specify the type of data stored and the operations that support the data
+4. Viewing a data structure as an ADT allows a programmer to focus on an idealized model of the data and its operations
+
+### 🔲 Problems :
+1. What is Information in Computer Science?
+2. What are methods for representing negative binary number? The following numbers convert to ones complement and twos complement notation.
+   * 00110111
+   * 01100110
+   * 01111101
+   * 10001001
+3. Write a C program where following numbers are stored in a array :
+
+2 12 17 24 5 78 35 18 16
+4. Write a C program using linked list where following numbers are stored :
+
+2 12 17 24 5 78 35 18 16
+
+5. Consider the stack NAME in fig 1.01, which is stored alphabetically.
+    * Suppose Nirmal is to be inserted in to the stack. How many name must be moved to the new location?
+    * Suppose Sourav is to be deleted from the stack. How many names must be removed to the new location?
+	 		
+6. The following is a tree structure given by means of level numbers as discussed below:
+01 Employee 02 Name 02 Emp. Code 02 Designation 03 Project Leader 03 Project Manager 02 Address
+Draw the corresponding tree diagram.
 ###  ⬛ References and Bibliography
 1. [NPTEL-IITG](https://archive.nptel.ac.in/courses/106/103/106103069/#)
