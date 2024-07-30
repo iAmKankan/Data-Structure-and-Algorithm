@@ -121,9 +121,7 @@ A tree consist of a distinguished node r , called the root and zero or more (sub
 
 In the tree of figure, the root is A, Node t 2 has r as a parent and t 2.1 , t 2.2 and t 2.3 as children. Each node may have arbitrary number of children, possibly zero. Nodes with no children are known as leaves.
 
-### 🔲 Graph
-	
- 	 	
+### 🔲 Graph	 	
 A graph consists of a set of nodes (or Vertices ) and a set of arc (or edge ). Each arc in a graph is specified by a pair of nodes. A node n is incident to an arc x if n is one of the two nodes in the ordered pair of nodes that constitute x. The degree of a node is the number of arcs incident to it. The indegree of a node n is the number of arcs that have n as the head, and the outdegree of n is the number of arcs that have n as the tail.
 
 The graph is the nonlinear data structure. The graph shown in the figure represents 7 vertices and 12 edges. The Vertices are { 1, 2, 3, 4, 5, 6, 7} and the arcs are {(1,2), (1,3), (1,4), (2,4), (2,5), (3,4), (3,6), (4,5), (4,6), (4,7), (5,7), (6,7) }. Node (4) in figure has indegree 3, outdegree 3 and degree 6.
@@ -150,7 +148,12 @@ The graph is the nonlinear data structure. The graph shown in the figure represe
 5. Consider the stack NAME in fig 1.01, which is stored alphabetically.
     * Suppose Nirmal is to be inserted in to the stack. How many name must be moved to the new location?
     * Suppose Sourav is to be deleted from the stack. How many names must be removed to the new location?
-	 		
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/904acfe4-ba93-4c53-911d-ef463fb49eac" width=12%/>
+ <br><ins><b><i></i></b></ins>
+</p>
+
 6. The following is a tree structure given by means of level numbers as discussed below:
 01 Employee 02 Name 02 Emp. Code 02 Designation 03 Project Leader 03 Project Manager 02 Address
 Draw the corresponding tree diagram.
