@@ -10,3 +10,26 @@ Each algorithm must have
 * Pre-conditions: The condition(s) on input.
 * Body of the Algorithm: A sequence of clear and unambiguous instructions.
 * Post-conditions: The condition(s) on output.
+* Algorithms are written in pseudo code that resembles programming languages like **C** and **Pascal**.
+* Consider a simple algorithm for finding the factorial of n.
+
+```C
+Algorithm Factorial (n)
+
+Step 1:	FACT = 1					
+Step 2:	for i = 1 to n do					
+Step 3:	FACT = FACT * i							
+Step 4:	print FACT				
+``` 										
+Specification: Computes n!.
+
+Pre-condition: n >= 0
+
+Post-condition: FACT = n!
+
+ 										
+* For better understanding conditions can also be defined after any statement, to specify values in particular variables.
+* Pre-condition and post-condition can also be defined for loop, to define conditions satisfied before starting and after completion of loop respectively.
+* What is remain true before execution of the ith iteration of a loop is called "loop invariant".
+* These conditions are useful during debugging proces of algorithms implementation.
+* Moreover, these conditions can also be used for giving correctness proof.
