@@ -107,7 +107,10 @@ $$\Large{\color{Purple}\begin{matrix*}[l]
 * Asymptotic bounds as polynomials are used as a measure of the estimation of the number of instructions to be executed by the algorithm . Three main types of asymptotic order notations are used in practice:
 
 
-### 🔲 1. Theta Notation (Θ-Notation):
-Theta notation encloses the function from above and below. Since it represents the upper and the lower bound of the running time of an algorithm, it is used for analyzing the average-case complexity of an algorithm.
+### 🔲 1. Theta Notation ( &Theta; -Notation):
+For a given function $\large{\color{Purple}g(n), \Theta(g(n))}$ is defined as
 
-.Theta (Average Case) You add the running times for each possible input combination and take the average in the average case.
+$$\Large{\color{Purple}\Theta(g(n)) = \begin{Bmatrix*}[l]
+ f(n):& \textrm{ there exist } c_1 >0, c_2 >0 \textrm{ and } n_0 \in N  \\
+& \textrm{ such that } 0\leq c_1 g(n) \leq f(n) \leq c_2 g(n), \textrm{ for all } n \geq n_0 \\
+\end{Bmatrix*}}$$
