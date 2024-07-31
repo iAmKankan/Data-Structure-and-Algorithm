@@ -33,3 +33,25 @@ Post-condition: FACT = n!
 * What is remain true before execution of the ith iteration of a loop is called "loop invariant".
 * These conditions are useful during debugging proces of algorithms implementation.
 * Moreover, these conditions can also be used for giving correctness proof.
+
+### 🔲 A Sorting Algorithm
+* Now, we take a more complex problem called sorting.
+* Problem Definition: Sort given n numbers by non-descending order.
+* There are many sorting algorithm. Insertion sort is a simple algorithm.
+* Insertion Sort: We can assume up to first number is sorted. Then sort up    to two numbers. Next, sort up to three numbers. This process continue till    we sort all n numbers.
+* Consider the following example of five integer:
+```
+       79 43 39 58 13 : Up to first number, 79, is sorted.
+       43 79 39 58 13 : Sorted up to two numbers.
+       39 43 79 58 13 : Sorted up to three numbers.
+       39 43 58 79 13 : Sorted up to four numbers.
+       13 39 43 58 79 : Sorted all numbers.
+```
+
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/a7b4abbc-ba0d-42a7-a5ca-c1528e2d4c6e" width=20%/>
+</p> 
+
+That is, if first (i-1) numbers are sorted then insert ith number into its correct     position. This can be done by shifting numbers right one number at a time     till a position for ith number is found.
+That is, shift number at (i-1)th position to ith position, number in (i-2)th position to (i-1)th position, and so on, till we find a correct position for the number in ith     position. This method is depicted in the figure on right side.
+
