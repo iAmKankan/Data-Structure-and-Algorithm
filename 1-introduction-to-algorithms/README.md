@@ -49,7 +49,7 @@ Post-condition: FACT = n!
 ```
 
 <p align="center">
- <img src="https://github.com/user-attachments/assets/a7b4abbc-ba0d-42a7-a5ca-c1528e2d4c6e" width=20%/>
+ <img src="https://github.com/user-attachments/assets/e8ce653b-b7b6-4bd8-a318-56e51ba3b30b" width=20%/>
 </p> 
 
 That is, if first (i-1) numbers are sorted then insert ith number into its correct     position. This can be done by shifting numbers right one number at a time     till a position for ith number is found.
