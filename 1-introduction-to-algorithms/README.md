@@ -114,3 +114,8 @@ $$\Large{\color{Purple}\Theta(g(n)) = \begin{Bmatrix*}[l]
  f(n):& \textrm{ there exist } c_1 >0, c_2 >0 \textrm{ and } n_0 \in N  \\
 & \textrm{ such that } 0\leq c_1 g(n) \leq f(n) \leq c_2 g(n), \textrm{ for all } n \geq n_0 \\
 \end{Bmatrix*}}$$
+
+
+In other words, a function $\large{\color{Purple}f(n)}$ is said to belong to $\large{\color{Purple}\Theta(g(n))}$ , if there exists positive constants $\large{\color{Purple}c_1}$ and $\large{\color{Purple}c_2}$ such that $\large{\color{Purple}0\leq c_1 g(n) \leq f(n) \leq c_2 g(n)}$ for sufficiently large value of $\large{\color{Purple}n}$.
+
+For example, $\large{\color{Purple}\alpha \beta}$ . This is because we can find constants $\large{\color{Purple}c_1 =\frac{1}{2}}$ and $\large{\color{Purple}c_2 =1}$ such that , for all $\large{\color{Purple}n \geq 2}$ .
