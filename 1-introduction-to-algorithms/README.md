@@ -55,3 +55,19 @@ Post-condition: FACT = n!
 That is, if first (i-1) numbers are sorted then insert ith number into its correct     position. This can be done by shifting numbers right one number at a time     till a position for ith number is found.
 That is, shift number at (i-1)th position to ith position, number in (i-2)th position to (i-1)th position, and so on, till we find a correct position for the number in ith     position. This method is depicted in the figure on right side.
 
+ The algorithmic description of insertion sort is given below.
+
+ 	 		 					
+```C
+Algorithm Insertion_Sort (a[n])
+
+Step 1:	for i = 2 to n do	
+Step 2:	current_num = a[i]	
+Step 3:	j = i
+Step 4:	 while (( j >1) and (a[j-1] > current_num)) do
+Step 5:			 a[j] = a[j-1]
+Step 6:			 j = j-1
+
+Step 7:	a[j] = current_num	
+``` 								
+ More about sorting algorithms are discussed in the modules 5 and 10.
