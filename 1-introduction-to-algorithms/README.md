@@ -71,3 +71,24 @@ Step 6:			 j = j-1
 Step 7:	a[j] = current_num	
 ``` 								
  More about sorting algorithms are discussed in the modules 5 and 10.
+
+
+### 🔲 Time Complexity
+* Execution time of an algorithm depends on numbers of instruction executed.
+* Consider the following algorithm fragment:
+
+```
+for i = 1 to n do
+
+ 				
+sum = sum + i ;	
+The for loop executed n+1 times for i values 1,2,....... n, n+1. Each instruction in the body of the loop is executed once for each value of i = 1,2,......, n. So number of steps executed is 2n+1.
+Consider another algorithm fragment:
+for i = 1 to n do	 	 	
+ 	for j = 1 to n do	 	
+k = k +1	
+ 			 										
+From prevoius example, number of instruction executed in the inner loop is  which is the body of outer       loop.
+Total number of instruction executed is
+=		 						
+= 
