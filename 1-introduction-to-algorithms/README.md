@@ -77,18 +77,31 @@ Step 7:	a[j] = current_num
 * Execution time of an algorithm depends on numbers of instruction executed.
 * Consider the following algorithm fragment:
 
-```
+```pascal
 for i = 1 to n do
+        sum = sum + i ;
+```
 
- 				
-sum = sum + i ;	
-The for loop executed n+1 times for i values 1,2,....... n, n+1. Each instruction in the body of the loop is executed once for each value of i = 1,2,......, n. So number of steps executed is 2n+1.
-Consider another algorithm fragment:
+* The for loop executed n+1 times for i values 1,2,....... n, n+1. Each instruction in the body of the loop is executed once for each value of i = 1,2,......, n. So number of steps executed is 2n+1.
+* Consider another algorithm fragment:
+
+```pascal
 for i = 1 to n do	 	 	
  	for j = 1 to n do	 	
-k = k +1	
- 			 										
-From prevoius example, number of instruction executed in the inner loop is  which is the body of outer       loop.
-Total number of instruction executed is
-=		 						
-= 
+            k = k +1	
+```
+* From prevoius example, number of instruction executed in the inner loop is  which is the body of outer loop.
+* Total number of instruction executed is
+
+$$\Large{\color{Purple}\begin{matrix*}[l]
+&=& n+1+n(2n+1) \\
+&=& 2n^2+2n +1 \\
+\end{matrix*}}$$
+
+
+* To measure the time complexity in absolute time unit has the following problems
+    1. The time required for an algorithm depends on number of instructions executed, which is a complex polynomial.
+    2. The execution time of an instruction depends on computer's power. Since, different computers take different amount of time for the same instruction.
+    3. Different types of instructions take different amount of time on same computer.
+* Complexity analysis technique abstracts away these machine dependent factors . In this approach, we assume all instruction takes constant amount of time for execution.
+* Asymptotic bounds as polynomials are used as a measure of the estimation of the number of instructions to be executed by the algorithm . Three main types of asymptotic order notations are used in practice:
