@@ -73,7 +73,7 @@ Step 7:	a[j] = current_num
  More about sorting algorithms are discussed in the modules 5 and 10.
 
 
-### 🔲 Time Complexity
+### ⬛ Time Complexity
 * Execution time of an algorithm depends on numbers of instruction executed.
 * Consider the following algorithm fragment:
 
@@ -105,3 +105,9 @@ $$\Large{\color{Purple}\begin{matrix*}[l]
     3. Different types of instructions take different amount of time on same computer.
 * Complexity analysis technique abstracts away these machine dependent factors . In this approach, we assume all instruction takes constant amount of time for execution.
 * Asymptotic bounds as polynomials are used as a measure of the estimation of the number of instructions to be executed by the algorithm . Three main types of asymptotic order notations are used in practice:
+
+
+### 🔲 1. Theta Notation (Θ-Notation):
+Theta notation encloses the function from above and below. Since it represents the upper and the lower bound of the running time of an algorithm, it is used for analyzing the average-case complexity of an algorithm.
+
+.Theta (Average Case) You add the running times for each possible input combination and take the average in the average case.
